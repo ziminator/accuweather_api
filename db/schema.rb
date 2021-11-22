@@ -16,8 +16,6 @@ ActiveRecord::Schema.define(version: 2021_11_22_203141) do
     t.string "local_observation_date_time"
     t.integer "epoch_time"
     t.float "temperature_metric_value"
-    t.string "temperature_metric_unit"
-    t.integer "temperature_metric_unit_type"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
