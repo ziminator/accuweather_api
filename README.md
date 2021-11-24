@@ -6,6 +6,8 @@
 * HTTParty
 * Rufus-Scheduler
 
+## Запрос на получение данных:
+
 * Получение статистических данных, инициализация базы:
 localhost:3000/api/v1/historical
 
