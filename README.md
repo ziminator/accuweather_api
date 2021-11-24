@@ -1,24 +1,22 @@
-# README
+# AccuWeather API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Ruby version 3.0.0
 
-Things you may want to cover:
+## Необходимые гемы:
+* HTTParty
+* Rufus-Scheduler
 
-* Ruby version
+* Получение статистических данных, инициализация базы:
+localhost:3000/api/v1/historical
 
-* System dependencies
+* Текущая температура:
+localhost:3000/api/v1/current
 
-* Configuration
+* Максимальное значение температуры за последние 24 часа
+localhost:3000/api/v1/max
 
-* Database creation
+* Минимальное значение температуры за последние 24 часа
+localhost:3000/api/v1/min
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Среднесуточное значение
+localhost:3000/api/v1/avg
